@@ -20,20 +20,29 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="{{ URL::to('/lacasa') }}">Start Bootstrap</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+           {{--  <li class="nav-item">
               <a class="nav-link" href="#">Sign Up</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Log In</a>
+            </li> --}}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ URL::to('/republicas') }}">Repúblicas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Repúblicas</a>
+              <a class="nav-link" href="{{ URL::to('/perfil') }}">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ URL::to('/republicas') }}">Contato</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="{{ URL::to('/home') }}">Logout</a>
             </li>
           </ul>
         </div>

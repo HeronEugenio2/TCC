@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 Route::get('/perfil', function () {
     return view('perfil');
@@ -20,3 +20,9 @@ Route::get('/perfil', function () {
 Route::get('/republicas', function () {
     return view('republicas');
 });
+Route::get('/lacasa', function () {
+    return view('homeLaCasa');
+});
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
