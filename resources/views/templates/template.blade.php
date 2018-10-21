@@ -45,7 +45,7 @@
      <!-- Footer -->
     <footer class="py-5 bg-black">
       <div class="container">
-        <p class="m-0 text-center text-white small">Copyright &copy; LaCasa 2018</p>
+        <p class="m-0 text-center text-white small">Copyright &copy; LaCasa 2018 <img title="profile image" class="img-circle img-responsive" src="http://i64.tinypic.com/10r93ww.png" height="50" width="50"></p>
       </div>
       <!-- /.container -->
     </footer>

@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/perfil', function () {
+    return view('perfil');
+});
+Route::get('/republicas', function () {
+    return view('republicas');
+});
