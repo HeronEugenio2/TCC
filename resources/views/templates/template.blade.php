@@ -26,11 +26,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-           {{--  <li class="nav-item">
-              <a class="nav-link" href="#">Sign Up</a>
+            {{-- <li class="nav-item">
+                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Log In</a>
+                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
             </li> --}}
             <li class="nav-item">
               <a class="nav-link" href="{{ URL::to('/republicas') }}">Repúblicas</a>
@@ -41,9 +42,6 @@
             <li class="nav-item">
               <a class="nav-link" href="{{ URL::to('/republicas') }}">Contato</a>
             </li>
-            {{--  <li class="nav-item">
-              <a class="nav-link" href="{{ URL::to('/home') }}">Logout</a>
-            </li> --}}
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('logout') }}"
                     onclick="event.preventDefault();
